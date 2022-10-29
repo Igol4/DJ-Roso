@@ -6,22 +6,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName("igraj")
         .setDescription("Pušta pjesmu.")
-        .addStringOption((option) => option.setName("url").setDescription("link pjesme").setRequired(true))
-        /*.addSubcommand((subcommand) =>
-            subcommand.setName("pjesma")
-            .setDescription("Pušta pjesmu s linka")
-            .addStringOption((option) => option.setName("url").setDescription("link pjesme").setRequired(true))
-        )
-        .addSubcommand((subcommand) =>
-            subcommand
-                .setName("playlista")
-                .setDescription("Pušta playlistu")
-                .addStringOption((option) => option.setName("url").setDescription("link playliste").setRequired(true))
-        )
-        .addSubcommand((subcommand) =>
-            subcommand.setName("pretraživanje"). setDescription("Pretražuje pjesme prema unosu.")
-                .addStringOption((option) => option.setName("riječi").setDescription("riječi iz unosa").setRequired(true))
-        )*/,
+        .addStringOption((option) => option.setName("url").setDescription("link pjesme").setRequired(true)),
         run: async ({client, interaction}) => {
             let url = interaction.options.getString("url")
             if (!interaction.member.voice.channel) return interaction.editReply(`Netko je htio pustiti - ** ${url}**\nNe zajebavaj neg uđi u chat.`)
