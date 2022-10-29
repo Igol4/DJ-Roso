@@ -28,8 +28,8 @@ Moguće komande su:
 ----------------------------------------------------------
 
 **Sljedeći update (DJ Roso v0.0.2)**
-- mogucnost micanja točno određene pjesme s popisa bez micanja onih prije nje (kao sto to radi /preskocina komanda)
-- komanda za ispis mogucih komandi s njihovim objasnjenjima (nesto kao ova poruka)
+  - mogucnost micanja točno određene pjesme s popisa bez micanja onih prije nje (kao sto to radi /preskocina komanda)
+  - komanda za ispis mogucih komandi s njihovim objasnjenjima (nesto kao ova poruka)
 Također, primam prijedloge za unaprijeđivanje bota (u DM).
 
 Pozdrav do sljedećeg updatea! 
