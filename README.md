@@ -2,6 +2,8 @@
 DJ-Roso Discord bot za muziku
 
 ----------------------------------------------------------
+**Uvod**
+-
 **Pozdrav svima!**
 Čast mi je predstaviti novitet u našem serveru - DJ Rosu (v.0.1)!
 DJ Roso je bot za puštanje muzike u pozivima, nazvan po najpoznatijem DJ-u u našem razredu. DJ Roso može puštati pjesme sa YouTube-a, Spotify-a i ostalih streaming servisa, također podržava prevljenje playlista, miješanje istih te preskakanje pjesama na istima. Također može pauzirati reprodukciju pjesme te može ispisati progress i trajanje.
