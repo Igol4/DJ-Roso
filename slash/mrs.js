@@ -15,7 +15,6 @@ module.exports = {
         if(!queue) return await interaction.editReply("Nema pjesama na popisu.")
 
         const trackNum = interaction.options.getNumber("broj")
-        //const num = parseInt(trackNum)
         if(trackNum > queue.tracks.length) return await interaction.editReply(`Fulao/la si broj, pjesma pod brojem ${trackNum} ne postoji.`)
         
         const izbrisana_pjesma = queue.tracks[trackNum - 1].title;
