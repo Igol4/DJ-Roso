@@ -25,8 +25,7 @@ Moguće komande su:
 ----------------------------------------------------------
 
 **Poznati problemi**
--
-
+Pošto se o nekim libraryima o kojima DJ-Roso ovisi promijenila logika, a sterije verzije tih librarya baš i ne funkcioniraju DJ-Roso je samim time postao nefunkcionalan te je vjerojatno najbolje rješenje napisati ga opet it nule.
 ----------------------------------------------------------
 
 **Sljedeći update (DJ Roso v0.0.2)**
